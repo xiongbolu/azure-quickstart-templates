@@ -60,7 +60,7 @@
   "resources": [
     {
       "type": "Microsoft.Compute/virtualMachines/extensions",
-      "name": "[concat(parameters('dnsNamePrefix'), '-mn0', '/prepareDisks')]",
+      "name": "[concat(parameters('dnsNamePrefix'), '-mn0', '/bootstrapCM')]",
       "apiVersion": "[parameters('resourceAPIVersion')]",
       "location": "[parameters('location')]",
       "properties": {
