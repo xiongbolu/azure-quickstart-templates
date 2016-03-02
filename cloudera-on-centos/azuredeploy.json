@@ -42,7 +42,7 @@
     },
     "location": {
       "type": "string",
-      "defaultValue": "westeurope",
+      "defaultValue": "westus",
       "allowedValues": [
         "westus",
         "eastus",
@@ -138,7 +138,7 @@
     },
     "tshirtSize": {
       "type": "string",
-      "defaultValue": "Eval",
+      "defaultValue": "Prod",
       "allowedValues": [
         "Eval",
         "Prod"
