@@ -235,7 +235,7 @@
     },
     {
       "type": "Microsoft.Storage/storageAccounts",
-      "name": "[copyIndex(), concat(variables('storageAccountName'))]",
+      "name": "[concat(copyIndex(), variables('storageAccountName'))]",
       "apiVersion": "[parameters('resourceAPIVersion')]",
       "location": "[parameters('location')]",
       "copy": {
