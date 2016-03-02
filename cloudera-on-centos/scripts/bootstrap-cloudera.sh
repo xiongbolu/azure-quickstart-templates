@@ -40,7 +40,7 @@ CLUSTERNAME=$NAMEPREFIX
 execname=$0
 
 log() {
-  echo "$(date): [${execname}] $@" 
+  echo "$(date): [${execname}] $@" >> /tmp/bootstrap-cloudera.log
 }
 
 log "my vmsize: $VMSIZE"
